@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #7c84e7;
+    color:fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #b3b3f4;
+  }
+
+  .card_terms span {
+    margin: 5px;
+    font-size: 13px;
+  }
+  
+  .link {
+    color: #066ef7;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 2px;
+  }
+
+  @media screen and (max-width: 480px) {
+    .container {
+      width: 90%;
+    }
+  }
